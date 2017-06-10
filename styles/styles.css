@@ -10,3 +10,14 @@ p {
   font-size: 16px;
   font-family: Monospace;
 }
+
+.smaller-image {
+  width: 100px;
+}
+
+.thick-green-border {
+  border-color: #32cd32;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
