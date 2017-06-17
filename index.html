@@ -7,14 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>freeCodeCamp HTML5 and CSS</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   </head>
 <body>
-  <h2 class="red-text">CatPhotoApp</h2>
+  <div class="container-fluid">
+  <h2 class="red-text text-center">CatPhotoApp</h2>
 
   <p>Click here for more <a href="http://www.freecatphotoapp.com">cat photos</a>. </p>
-  <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+  <a href="#">
+    <img src="https://bit.ly/fcc-relaxing-cat"
+         class="smaller-image thick-green-border"
+         alt="A cute orange cat lying on its back.">
+  </a>
+  <img src="https://bit.ly/fcc-running-cats"
+       class="img-responsive"
+       alt="three kittens running towards screen.">
+
+  <button class="btn btn-block btn-primary">Like</button>
 
   <div class="silver-background">
   <p class="red-text">Things cats love:</p>
@@ -40,6 +51,6 @@
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
   </form>
-
+  </div>
 </body>
 </html>
