@@ -2,22 +2,22 @@
   background-color: #90ee90;
 }
 
-.red-text {
+/*.red-text {
   color: red;
-}
+}*/
 
 h2 {
   font-family: Lobster, Monospace;
 }
 
-p {
+/*p {
   font-size: 16px;
   font-family: Monospace;
 }
 
 .smaller-image {
   width: 100px;
-}
+}*/
 
 .thick-green-border {
   border-color: #32cd32;
@@ -26,6 +26,6 @@ p {
   border-radius: 50%;
 }
 
-.silver-background {
+/*.silver-background {
   background-color: #c0c0c0;
-}
+}*/
