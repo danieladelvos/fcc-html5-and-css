@@ -12,82 +12,81 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
-<body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-8">
-        <h2 class="text-primary text-center">CatPhotoApp</h2>
-      </div>
-      <div class="col-xs-4">
-        <a href="#">
-          <img src="https://bit.ly/fcc-relaxing-cat"
-               class="img-responsive thick-green-border"
-               alt="A cute orange cat lying on its back.">
-        </a>
-      </div>
-    </div>
-    <img src="https://bit.ly/fcc-running-cats"
-       class="img-responsive"
-       alt="three kittens running towards screen.">
-    <div class="row">
-      <div class="col-xs-4">
-       <button class="btn btn-block btn-primary">
-         <i class="fa fa-thumbs-up"></i> Like</button>
-      </div>
-      <div class="col-xs-4">
-        <button class="btn btn-block btn-info">
-          <i class="fa fa-info-circle"></i> Info</button>
-      </div>
-      <div class="col-xs-4">
-        <button class="btn btn-block btn-danger">
-          <i class="fa fa-trash"></i> Delete</button>
-      </div>
-    </div>
-    <div class="silver-background">
-      <p class="red-text">Things cats <span class="text-danger">love:</span></p>
-    <ul>
-      <li>boxes</li>
-      <li>sleep</li>
-      <li>making videos</li>
-    </ul>
-    <p class="red-text">Things cats hate:</p>
-      <ol>
-        <li>dogs</li>
-        <li>taking baths</li>
-        <li>flea treatment</li>
-      </ol>
-    </div>
-      <form action="/submit-cat-photo" id="cat-photo-form">
-        <div class="row">
-          <div class="col-xs-6">
-            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-          </div>
-          <div class="col-xs-6">
-            <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-          </div>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-8">
+          <h2 class="text-primary text-center">CatPhotoApp</h2>
         </div>
-        <div class="row">
-          <div class="col-xs-4">
-            <label><input type="checkbox" name="personality"> Lazy</label>
-          </div>
-          <div class="col-xs-4">
-            <label><input type="checkbox" name="personality"> Curious</label>
-          </div>
-          <div class="col-xs-4">
-            <label><input type="checkbox" name="personality"> Loving</label>
-          </div>
+        <div class="col-xs-4">
+          <a href="#">
+            <img src="https://bit.ly/fcc-relaxing-cat"
+                 class="img-responsive thick-green-border"
+                 alt="A cute orange cat lying on its back.">
+          </a>
         </div>
-        <div class="row">
-          <div class="col-xs-7">
-            <input type="text" class="form-control" placeholder="cat photo URL" required>
-          </div>
-          <div class="col-xs-5">
-            <button type="submit" class="btn btn-primary">
-            <i class="fa fa-paper-plane"></i> Submit</button>
-          </div>
+      </div>
+      <img src="https://bit.ly/fcc-running-cats"
+         class="img-responsive"
+         alt="three kittens running towards screen.">
+      <div class="row">
+        <div class="col-xs-4">
+         <button class="btn btn-block btn-primary">
+           <i class="fa fa-thumbs-up"></i> Like</button>
         </div>
-      </form>
-
-  </div>
-</body>
+        <div class="col-xs-4">
+          <button class="btn btn-block btn-info">
+            <i class="fa fa-info-circle"></i> Info</button>
+        </div>
+        <div class="col-xs-4">
+          <button class="btn btn-block btn-danger">
+            <i class="fa fa-trash"></i> Delete</button>
+        </div>
+      </div>
+      <div class="silver-background">
+        <p class="red-text">Things cats <span class="text-danger">love:</span></p>
+      <ul>
+        <li>boxes</li>
+        <li>sleep</li>
+        <li>making videos</li>
+      </ul>
+      <p class="red-text">Things cats hate:</p>
+        <ol>
+          <li>dogs</li>
+          <li>taking baths</li>
+          <li>flea treatment</li>
+        </ol>
+      </div>
+        <form action="/submit-cat-photo" id="cat-photo-form">
+          <div class="row">
+            <div class="col-xs-6">
+              <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            </div>
+            <div class="col-xs-6">
+              <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <label><input type="checkbox" name="personality"> Lazy</label>
+            </div>
+            <div class="col-xs-4">
+              <label><input type="checkbox" name="personality"> Curious</label>
+            </div>
+            <div class="col-xs-4">
+              <label><input type="checkbox" name="personality"> Loving</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-7">
+              <input type="text" class="form-control" placeholder="cat photo URL" required>
+            </div>
+            <div class="col-xs-5">
+              <button type="submit" class="btn btn-primary">
+              <i class="fa fa-paper-plane"></i> Submit</button>
+            </div>
+          </div>
+        </form>
+    </div>
+  </body>
 </html>
