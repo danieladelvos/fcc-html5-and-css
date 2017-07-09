@@ -57,28 +57,37 @@
         <li>flea treatment</li>
       </ol>
     </div>
-    <div class="row">
       <form action="/submit-cat-photo" id="cat-photo-form">
-        <div class="col-xs-6">
-          <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+        <div class="row">
+          <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+          </div>
+          <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+          </div>
         </div>
-        <div class="col-xs-6">
-          <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+        <div class="row">
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality"> Lazy</label>
+          </div>
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality"> Curious</label>
+          </div>
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality"> Loving</label>
+          </div>
         </div>
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality"> Lazy</label>
+        <div class="row">
+          <div class="col-xs-7">
+            <input type="text" class="form-control" placeholder="cat photo URL" required>
+          </div>
+          <div class="col-xs-5">
+            <button type="submit" class="btn btn-primary">
+            <i class="fa fa-paper-plane"></i> Submit</button>
+          </div>
         </div>
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality"> Curious</label>
-        </div>
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality"> Loving</label>
-        </div>
-        <input type="text" class="form-control" placeholder="cat photo URL" required>
-        <button type="submit" class="btn btn-primary">
-          <i class="fa fa-paper-plane"></i> Submit</button>
       </form>
-    </div>
+
   </div>
 </body>
 </html>
